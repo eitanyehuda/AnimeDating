@@ -2,16 +2,14 @@ package DataAlloc;
 
 public class Users {
 	private String username;
-	private String[] animes;
+	private String[] animeList;
 	private int[] eps;
 	private double[] scores;
 	
-	public Users(String username, String[] animes, int[] eps, double[] scores){
+	public Users(String username, String[] animeList, int[] eps, double[] scores){
 		this.username = username;
-		this.animes = animes;
+		this.animeList = animeList;
 		this.eps = eps;
 		this.scores = scores;
-	}
-	
-	
+	}	
 }
